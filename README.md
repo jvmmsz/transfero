@@ -23,11 +23,12 @@ Editar
 │   ├── __init__.py
 │   ├── asgi.py
 │   ├── settings.py          # ⚙️ Configurações do projeto
-│   ├── urls.py              # 🌐 Roteamento principal
-│   └── wsgi.py
+│   ├── urls.py ![Urls py](https://github.com/user-attachments/assets/4f25f1c1-8bb0-4034-9ee3-b257bb163bd5) # 🌐 Roteamento principal
+│   └── wsgi.py ![Wsgi py](https://github.com/user-attachments/assets/5708ca20-abe3-4336-9ca9-7158a0b621ab)
+
 
 ├── usuarios/                # 👤 App para gestão de usuários
-│   ├── admin.py
+│   ├── admin.py 
 │   ├── apps.py
 │   ├── models.py
 │   ├── tests.py
@@ -35,11 +36,11 @@ Editar
 
 ├── filmes/                  # 🎬 App principal do streaming
 │   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py
+│   ├── apps.py ![Apps py](https://github.com/user-attachments/assets/8ea30fa6-ff9e-475a-914a-4294899afd95)
+│   ├── forms.py ![Forms py](https://github.com/user-attachments/assets/97b917f4-09a1-439e-93cf-e2731afab21a)
 │   ├── models.py
-│   ├── views.py
-│   ├── urls.py
+│   ├── views.py ![Views py](https://github.com/user-attachments/assets/1f1d6dab-e720-4415-af4c-b0e2e4afcbb6)
+│   ├── urls.py ![Urls py](https://github.com/user-attachments/assets/53f513d1-efdd-4176-b68c-310fa9dfdb5a)
 │   └── templates/
 │       └── filmes/          # 🧾 Templates específicos dos filmes
 
@@ -48,7 +49,8 @@ Editar
 │   ├── templates/
 │   └── views/
 
-├── base_templates/          # 🧱 Templates reutilizáveis
+├── base_templates/           ![Base ](https://github.com/user-attachments/assets/2af681c9-5f0d-475d-9808-94537ae8530b)
+
 │   └── global/
 │       └── partials/        # 🧩 Ex: navbar, footer, etc.
 
